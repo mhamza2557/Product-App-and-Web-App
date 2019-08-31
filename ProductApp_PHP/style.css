@@ -1,0 +1,57 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.wrapper {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+header,
+.content,
+footer {
+    display: table-row;
+}
+
+header,
+footer {
+    height: 0;
+    background: #eee;
+}
+
+.inner {
+    height: 100%;
+    overflow: auto;
+}
+
+table {
+    width: -webkit-fill-available;
+}
+
+header {
+    color: white;
+    background-color: cornflowerblue;
+}
+
+footer {
+    background: dodgerblue;
+    color: white;
+}
+
+.head {
+    display: -webkit-inline-box;
+}
+
+
+form {
+    text-align: left;
+    position: relative;
+    top: 90px;
+    margin-left: 43px;
+}
